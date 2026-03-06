@@ -7,9 +7,9 @@ Right click "view source code"
 
 Decode the hexadecimal string "3d3d516343746d4d6d6c315669563362" using the details in the function encodeSecret($secret)
 
-Convert hex to binary using hex2bin($encodedSecret)
-Reverse the string using strrev()
-And decode the final string using base64_decode() in the Linux command line
+Convert hex to binary using hex2bin($encodedSecret),
+reverse the string using strrev(),
+and decode the final string using base64_decode() in the Linux command line
 
 echo "3d3d516343746d4d6d6c315669563362" | xxd -r -p | rev | base64 -d
 # Output: oubWYf2kBq
